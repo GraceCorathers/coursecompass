@@ -8,15 +8,15 @@ def index():
     return render_template('index.html')
 
 @app.route('/quizzes/')
-def recipes():
+def quizzes():
     return render_template('quizzes.html')
 
 @app.route('/resources/')
-def about():
-    return render_template('.html')
+def resources():
+    return render_template('resources.html')
 
 @app.route('/professional_development/')
-def blog():
+def professional_development():
     return render_template('prodev.html')
 
 # allows u to click run button
