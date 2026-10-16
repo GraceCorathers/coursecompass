@@ -1,0 +1,29 @@
+#homeheader {
+    font-size: 12.5vh;
+    color: #f9f9f9;
+    text-shadow: 2px 2px #03073a;
+    font-family: "Montserrat", sans-serif;
+}
+nav {
+    font-family: "Montserrat", sans-serif;
+    color: #051156;
+    margin-bottom: 1vh;
+    font-weight: bold;   
+}
+footer {
+    padding-left: 2.5vh;
+}
+
+#homesubheader{
+    font-family: "Montserrat", sans-serif;
+    font-size: 4vh;
+    font-style: italic;
+    color: #dceaff;
+}
+
+#bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.735), rgba(0, 0, 0, 0.623)), url(libwest.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+}
