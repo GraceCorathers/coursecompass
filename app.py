@@ -21,5 +21,5 @@ def professional_development():
 
 # allows u to click run button
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5423, debug=True)
+    app.run(host='0.0.0.0', port=1917, debug=True)
     

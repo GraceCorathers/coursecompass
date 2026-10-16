@@ -3,5 +3,53 @@
 Home
 {% endblock %}
 {% block content %}
-
+<div class="main" id="indexmain">
+    <div id="bg">
+        <div id="textcontainer">
+            <h1 class="hometext" class="text-center"><strong>CourseCompass</strong></h1>
+            <h3 class="hometext" class="text-center"><strong>Discover your academic and professional direction</strong></h3>
+        </div>
+        <br>
+        <div id="">
+        </div>
+    </div>
+    <div class="container">
+        <div class="block">
+            <div class="row">
+                <div class="col picblock">
+                   <!-- <img src="{{ url_for('static', filename='.jpeg')}}" class="img-thumbnail float-end"> -->
+                </div>
+                <div class="col textblock">
+                    <h1 class="textmain">Quizzes</h1>
+                    <p class="pblocktext">Insert text here</p>
+                    <button type="button" class="btn btn-secondary btn-lg ab"><a class="pagebuttons" href="{{ url_for('quizzes') }}">To Page</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="row">
+                <div class="col textblock">
+                    <h1 class="textmain">Resources</h1>
+                    <p class="pblocktext">Insert text here!</p>
+                    <button type="button" class="btn btn-secondary btn-lg ab"><a class="pagebuttons" href="{{ url_for('resources') }}">To Page</a></button>
+                </div>
+                <div class="col picblock">
+                    <!-- <img src="{{ url_for('static', filename='.jpeg')}}" class="img-thumbnail float-end"> -->
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="row">
+                <div class="col picblock">
+                   <!-- <img src="{{ url_for('static', filename='.jpeg')}}" class="img-thumbnail float-end"> -->
+                </div>
+                <div class="col textblock">
+                    <h1 class="textmain">Professional Development</h1>
+                    <p class="pblocktext">Insert text here</p>
+                    <button type="button" class="btn btn-secondary btn-lg ab"><a class="pagebuttons" href="{{ url_for('professional_development') }}">To Page</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}
